@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.active{
+	color: orange;
+
+}
+.medsos{
+	padding: 8px 0;
+	/* background-color: #2793ff; */
+    top: 50px;
+	font-size: 15px;
+	margin-right: 50px;
+}
+.medsos ul li a{
+	display: inline-block;
+	color: #fff;
+	margin-right: 25px;
+	background-color: rgba(255, 132, 0, 0.8);
+	padding: 10px 12px;
+	font-size: 13px;
+	border-radius: 50px;
+	margin-top: 5px;
+}
+.medsos ul li{
+	display: inline-block;
+}
+.medsos ul li a:hover{
+	background-color: rgba(71, 187, 254, 0.7);
+	border-radius: 50px;
+	padding: 10px 12px;
+}
+.container{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: aqua;
+}
+.container h1{
+	margin-left: 50px;
+}
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container ul li .dropdown{
+	display: none;
+}
+.container ul li:hover .dropdown{
+	display: block;
+	background-color: rgba(0, 255, 255, 0.656);
+	position: absolute;
+	padding: 10px;
+	/* margin-top: 10px; */
+}
+.container ul li:hover .dropdown li{
+	display: block;
+}
+.dropdown{
+	border-radius: 0px 0px 25px 25px;
+	/* margin-top: 13px; */
+	margin-right: 50px;
+}
+.dropdown li{
+	margin-bottom: 8.5px;
+}
+.nav{
+	/* position: fixed; */
+	background-image: url(../personal\ branding/images/background3.webp);
+	background-size: cover;
+	z-index: 2;
+	width: 100%;
+}
+header {
+	margin-bottom: 25px;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: black;
+	font-size: 26px;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+    /* margin-top: 15%; */
+	padding: 10px 12px;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 50px;
+	margin-right: 13px;
+	background-color: rgba(255, 132, 0, 0.8);
+}
+header 	ul li a:hover{
+	background-color: rgba(71, 187, 254, 0.7);
+	border-radius: 20px;
+}
+.isi{
+	background-color: rgba(0, 255, 255, 0.626);
+	width: 85%;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+}
+body{
+	/* background-image: url(foto/background3.webp); */
+	background-color: #2793ff;
+}
+.isi h1{
+	margin-left: 40%;
+	margin-top: 10%;
+	padding-top: 15px;
+}
+.isi img{
+	width: 12%;
+	margin-top: 55px;
+	margin-left: 30%;
+	border-radius: 18%;
+}
+p{
+	margin-left: 45%;
+	margin-top: -16%;
+	margin-right: 25%;
+}
+.button{
+	padding: 2% 0;
+	margin-left: 45%;
+}
+.button ul li a{
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	margin-right: 15px;
+	background-color: rgba(255, 132, 0, 0.8);
+	padding: 10px 12px;
+	font-size: 18px;
+	border-radius: 50px;
+}
+.button ul li{
+	display: inline-block;
+}
+.button ul li a:hover{
+	background-color: rgba(71, 187, 254, 0.7);
+	border-radius: 50px;
+	padding: 10px 12px;
+}
+.biodata{
+	margin-left: 55px;
+	margin-top: 3%;
+	background-color: rgba(0, 255, 255, 0.41);
+}
+.kemampuan{
+	margin-left: 55px;
+	margin-top: 3%;
+}
+.kemampuan ol li{
+	margin-left: 15px;
+}
+.hobi{
+	margin-left: 55px;
+	margin-top: 3%;
+}
+
+table, th, td {
+	border:1px solid black;
+	margin-left: 7%;
+	margin-bottom: 10%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/* table {
+	border-collapse: collapse;
+	width: 100%;
+  } */
+  
+  tr:nth-child(even) {
+	background-color: #D6EEEE;
+  }
+
+  .rp {
+	margin-top: 5%;
+	margin-left: 7%;
+	margin-bottom: 10px;
+  }
+
+  .form {
+	margin-top: 25px;
+	margin-left: 10%;
+  }
+
+  footer {
+	background-color: aqua;
+	color: #000;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  .footer1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 8px;
+  }
+  
+  .logo img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+  }
+  
+  .logo p {
+	margin: 0;
+	font-size: 1.5em;
+  }
+  
+  .navfoot ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .navfoot ul li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  .navfoot ul li a {
+	color: #000;
+	text-decoration: none;
+  }
+  
+  .socialfoot ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .socialfoot ul li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  .socialfoot ul li a {
+	color: #000;
+	text-decoration: none;
+  }
+  
+  .socialfoot ul li a i {
+	font-size: 1.5em;
+  }
+  
