@@ -161,18 +161,34 @@ p{
 	margin-left: 55px;
 	margin-top: 6%;
 	background-color: rgba(0, 255, 255, 0.64);
-	margin-right: 80px;
+	margin-right: 900px;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 25px;
 }
 .kemampuan{
 	margin-left: 55px;
-	margin-top: 3%;
+	margin-top: 6%;
+	background-color: rgba(0, 255, 255, 0.64);
+	margin-right: 900px;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 25px;
 }
 .kemampuan ol li{
 	margin-left: 15px;
 }
 .hobi{
 	margin-left: 55px;
-	margin-top: 3%;
+	margin-top: 6%;
+	background-color: rgba(0, 255, 255, 0.64);
+	margin-right: 900px;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 25px;
 }
 
 table, th, td {
@@ -193,9 +209,15 @@ table, th, td {
   }
 
   .rp {
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-left: 7%;
 	margin-bottom: 10px;
+	background-color: rgba(0, 255, 255, 0.64);
+	margin-right: 900px;
+	/* padding-left: 25px; */
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 25px;
   }
 
   .form {
@@ -211,6 +233,18 @@ table, th, td {
 	bottom: 0;
 	width: 100%;
   }
+
+  /* footer {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+    margin-top: 117px;
+    text-decoration: none;
+    list-style: none;
+} */
 
   /* .footertentang {
 	background-color: aqua;
@@ -278,4 +312,49 @@ table, th, td {
 	font-size: 1.5em;
   }
 
-  
+  /* .login-box {
+	width: 320px;
+	height: 420px;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 100px auto;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 20px #000000;
+	text-align: center;
+}
+
+.login-box h2 {
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.login-box p {
+	margin: 0px;
+	font-weight: bold;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: none;
+	background-color: #F0F0F0;
+	border-radius: 5px;
+}
+
+.login-box input[type="submit"] {
+	width: 100%;
+	background-color: #2ECC71;
+	color: #FFFFFF;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+	background-color: #27AE60;
+} */
+
